@@ -1,0 +1,490 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    background-color: #ebe7e7;
+}
+
+header{
+	background: #000000;
+    margin-top: 0%;
+    top: 0 fixed;
+    display: grid;
+}
+
+.caixa{
+    position: relative;
+	width: 100%;
+    height: 30%;
+    display: block;
+}
+
+img.nfl{
+    width: 10%;
+    float: left;
+    list-style: none;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.caixa>.navegacao{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+ul.navegacao{
+    font-size: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+   
+nav a{
+    text-transform: uppercase;
+    color: #eead1f;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+   
+nav a:hover {
+    color: #5a9eab;
+    text-decoration:underline;
+}
+
+img.VH{
+	width: 8%;
+    float: right;
+    list-style: none;
+    margin-top: 0%;
+    margin-right: 3%;
+}
+
+.principal{
+    width:100%;
+    margin: auto;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+}
+
+.split {
+    z-index:1;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+.left {
+    left: 0;
+    background-color: #eead1f;
+    border: 3px solid #ebe7e7;
+    float:left; 
+    margin-left:1%;
+    width:50%;
+    height: 566px;
+}
+  
+.right {
+    right: 0;
+    background-color: #5a9eab;
+    border: 3px solid #ebe7e7;
+    text-align: center;
+    padding: 1%;
+    width:45%;
+    margin-right:1%;
+    float: right;
+}
+
+#texto{
+    text-align: center;
+    color: black;
+    font-style: bold; 
+    font-weight: 100;  
+    margin: 0;
+    padding: 10px;
+}
+
+a link{
+    text-decoration: none;
+}
+
+.botaoVencer{
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-color: #000000;
+    box-shadow: 10px 10px 10px 0 #000000;
+    font-style: none;
+    background-color: #ebe7e744;
+    color:  #eead1f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*vencer*/
+.principalVencer{
+    width:100%;
+    margin: auto;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+.vencer {
+    z-index:1;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+.Ataque{
+    float:left;
+    left: 0;
+    margin-left:1%;
+    border: 3px solid #ebe7e7;
+    width:50%;
+    text-align: center;
+    background-color: #5a9eab
+}
+  
+.Defesa{
+    float: right;
+    right: 0;
+    margin-right:1%;
+    border: 3px solid #ebe7e7;
+    width:45%;
+    text-align: center;
+    background-color: #eead1f;
+}
+
+/*ataque*/
+.principalAtaque{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.fotoAtaque {
+    float: left;
+    margin: auto 2% 0% 3%;
+    border: 2px dashed #eead1f;
+    width: 16%;
+    height: 80%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.analiseAtaque{
+    margin: 2% 5% 0% 0%;
+    text-align: justify;
+    color: black;
+    font-style: bold;
+}
+
+.analiseAtaque h3{
+    text-align: right;
+    margin-bottom: 0%;
+}
+
+.tabelaAtaque {
+    float: right;
+    margin-top: 1.5%;
+    text-align: center;
+    border: 2px dashed #eead1f;
+    background-color: #000000;
+    color:#ebe7e7;
+}
+
+#tabelaAtaque{
+    border: 2px dashed #ebe7e7;
+    padding: 3%;
+    background-color: #000000;
+    color: #eead1f;
+}
+
+.ataqueCentro {
+    z-index:1;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+.tendenciaAtaqueEsquerda {
+    display: inline=block;
+    left: 0;
+    background-color: #000000;
+    border: 5px solid #ebe7e7;
+    color: #ebe7e7;
+    float:left; 
+    margin-left: 1%;
+    margin-top: 1.5%;
+    padding: 1%;
+    text-align: center;
+    }
+  
+.tendenciaAtaqueDireita {
+    display: inline-block;
+    right: 0;
+    background-color: #000000;
+    border: 5px solid #ebe7e7;
+    color: #ebe7e7;
+    text-align: center;
+    margin: 1.5%;
+    padding: 1%;
+}
+
+.botaoAtaque{
+    text-transform: uppercase;
+    float: right;
+    margin-top:-3.5%;
+    margin-bottom: 3%;
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: #000000;
+    box-shadow: 10px 10px 10px 0 #000000;
+    font-style: none;
+    background-color: #eead1f;
+    color:  #eead1f;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* defesa*/
+.principalDefesa{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+.fotoDefesa {
+    float: right;
+    margin: auto 2% 0% 3%;
+    border: 2px dashed #5A9EAB;
+    width: 20%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.analiseDefesa{
+    margin: 0% 5% 0% 3%;
+    display: block;
+    text-align: center;
+    color: black;
+    font-style: bold;
+}
+
+.analiseDefesa p{
+    text-align: right;
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+
+.analiseDefesa h3{
+    width: 100%;
+    text-align: right;
+    float: right;
+    margin-right: 39%;
+    margin-top: 0,5%
+}
+
+.tabelaDefesa {
+    margin-bottom: 3%;
+    text-align: center;
+    border: 2px dashed #000000;
+    background-color: #5A9EAB;
+    float: right;
+    margin-right: 38%;
+    color:#ebe7e7;
+}
+
+#tabelaDefesa {
+    border: 2px dashed #000000;
+    padding: 3%;
+    background-color: #5A9EAB;
+    color: #000000;
+}
+
+.tendenciaDefesa {
+    display: inline=block;
+    left: 0;
+    background-color: #000000;
+    border: 5px dashed #5A9EAB;
+    color: #5A9EAB;
+    float:left; 
+    margin-left: 3%;
+    padding: 0% 1% 1% 1%;
+}
+
+.botaoDefesa {
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    margin-top: -10%;
+    border-radius: 20px;
+    border-color: #000000;
+    box-shadow: 10px 10px 10px 0 #000000;
+    font-style: none;
+    background-color: #000000;
+    color:  #000000;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+/* Jogadoras */
+.principalJogadoras{
+    display: block;
+    align-items: center;
+    margin-left:auto;
+    padding: auto;
+}
+
+.fotoTime {
+    float: left;
+    margin: 5% 2% 0% 3%;
+    border: 2px dashed #5A9EAB;
+    width: 35%;
+    opacity: 1;
+    transition: 400ms;
+    
+}
+
+.fotoTime2{
+    float: left;
+    margin: 50%, 2%, 0%, 3%;
+    border: 2px;
+    width: 45%;
+}
+.cardJogadora {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    perspective: 1000px;
+    text-align: center;
+    padding: 0%;
+    flex: 0 0 33%;                       /* don't grow, don't shrink, width */
+    transform-style: preserve-3d;
+
+}
+#noveCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flipper{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+.flip-container:hover .flipper{
+    transform: rotateY(180deg);
+}
+
+.frente{
+    padding: center;
+}
+.frente, .tras{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+}
+.tras{
+    transform: rotateY(180deg);
+}
+.flip-container .flipper {
+    padding:auto;
+    margin: center;
+}
+#cardJogadora{
+    display: inline-flex;
+    
+}
+
+/* footer */
+footer{
+    bottom:0 fixed;
+    background-color: black;
+    display: block;
+    margin-top: auto;
+    width: 100%;
+    height: 13rem;
+}
+
+.copyright{
+    text-align: center;
+    color:#eead1f;
+}
+
+.contSocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mS {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    transition: all .25s ease;
+}
+
+.bg {
+    position: absolute;
+    width: 60px;
+    background: #eead1f ;
+    height: 60px;
+    border-radius: 50px;
+    pointer-events: none;
+    box-shadow: 0px 8px 35px 0px #803b41;
+}
+
+.mS i {
+    text-decoration: none;
+    pointer-events: none;
+    font-size: 1.8rem;
+    z-index: 10;
+    position: relative;
+}
+
+/* color: #5c2b2F marrom 
+color: #eead1f;  amarelo 
+color: #5a9eab;  azul */
+
+.botao8{
+
+}
+
+
